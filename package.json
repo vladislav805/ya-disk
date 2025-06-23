@@ -1,0 +1,29 @@
+{
+  "name": "@veluga/ya-disk",
+  "version": "0.1.0",
+  "description": "Yandex.Disk library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "typechecking": "tsc --noEmit"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "tsconfig.json"
+  ],
+  "author": "Vladislav Veluga <vlad@velu.ga> (https://velu.ga/)",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "22.15.32",
+    "typescript": "5.8.3"
+  }
+}

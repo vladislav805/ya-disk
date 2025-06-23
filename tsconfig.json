@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "noImplicitOverride": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "lib": ["DOM", "esnext"],
+        "module": "esnext",
+        "target": "esnext",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "declaration": true,
+        "declarationDir": "dist",
+        "allowJs": false,
+        "strict": true,
+        "strictNullChecks": true,
+        "sourceMap": true,
+        "removeComments": false,
+        "baseUrl": "src",
+        "outDir": "dist",
+        "skipLibCheck": true,
+        "verbatimModuleSyntax": true,
+        "resolveJsonModule": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
